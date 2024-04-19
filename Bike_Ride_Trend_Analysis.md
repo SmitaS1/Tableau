@@ -1,70 +1,50 @@
-Overall Analysis: Bike Ride Trends Analysis
-Analysis: Analyzing Bike Ride Trends: Classic, Electric, and Docked Bikes
-Introduction:
-The visualization offers a comprehensive analysis of bike ride trends throughout the year 2023, categorizing rides by bike type: classic, electric, and docked bikes. Each bike type is represented by a distinct color – yellow for classic bikes, green for electric bikes, and red for docked bikes. The map provides a geographic representation of ride origins, while the label displays details about the start station names, Bike types, Avarage distance in miles for the start and end station.
+### Analysis: Bike Ride Trend Analysis
+Tableau Public Server URL: 
+https://public.tableau.com/views/BikeRideTrendAnalysis_new/1_Dashboard-Analysis?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
-Main Story:
-The analysis reveals that classic bikes are the most popular choice among riders, with a significant number of rides recorded throughout the year, as indicated by the abundance of yellow bars on the map. Electric bikes show a growing trend in popularity, with an increasing number of green bars visible across various locations. Conversely, the usage of docked bikes appears to be limited, with fewer red bars scattered across the map, suggesting a lower demand compared to classic and electric bikes.
+* Data Source url: https://s3.amazonaws.com/tripdata/index.html
+* Data Source: 4 csv files used for the month of April, July,  October, December 2023
+* Dashboard : 5 Dashboards created
+* Story : 1 Stories created
+* Worksheets : 12 worksheets created for visualiztions
+* Chart types used : Bar, map
+* Assumption : All four months (April, july, October, December) are peak months of each four seasons.
 
-Conclusion:
-In summary, the visualization highlights the dominance of classic bikes in the bike-sharing landscape, followed by a rising interest in electric bikes. The presence of docked bikes, while available at certain stations, indicates relatively lower usage compared to other bike types. Understanding these trends can inform decision-making processes for bike-sharing services, allowing them to optimize resources and tailor offerings to meet the evolving needs and preferences of riders.
+## Analysis:Title: Bike Ride Trend Analysis
 
-Analysis: Exploring Seasonal Ride Trends Across Different Months of 2023
-Introduction:
-The visualization provides a comprehensive analysis of bike ride trends across various months of 2023, focusing on station-wise ride counts. Each month is depicted separately, offering insights into the unique patterns and trends observed during April, July, October, and December. The intensity of color reflects the ride count, with deeper shades indicating higher ride volumes.
+## Introduction: 
+The visualization of bike ride trends throughout 2023 provides a comprehensive overview of the usage patterns and preferences of riders. . Geographic representation on the map showcases Most popular start; and end station the bigger the size of circle higher the popularity, while labels provide detailed insights into station names, bike types, ride count, average distances 
+for the station categorization into classic, electric, and docked bikes, represented by distinct colors on maps. Analysis aims to uncover underlying trends and insights driving bike-sharing services.   
 
-Analysis by Month:
-April: Grove St Path emerges as the station with the highest ride count, indicating significant bike traffic. Other stations exhibit varying levels of ride activity.
-July: Grove St Path maintains its prominence as the top station for bike rides, with vibrant green hues indicating high activity levels.
-October: Grove St Path remains popular, with a notable ride count. Dark brownish-red tints signify continued activity in the autumn season.
-December: Hoboken Terminal - River takes the lead as the top station, reflecting seasonal changes in rider preferences.
+## Main Story: 
+The central narrative of the analysis revolves around the dominance of classic bikes, followed by electric bikes, with docked bikes displaying comparatively lower demand. The visualization portrays a landscape where classic bikes emerge as the preferred choice among riders, with electric bikes showing a notable growing trend in popularity. Docked bikes exhibit limited usage, as evidenced by fewer red bars scattered across the map. The inclusion of maps showcasing the most popular start and end stations based on ride count adds another layer of insight to the analysis. It also provides the top ten and bottom ten station based on ride count which add another layer of insights to the analysis. By dissecting daily ride counts, the analysis facilitates a deeper understanding of when and how riders engage with bike-sharing services. detailed hourly breakdown, provides actionable insights for enhancing service delivery and promoting sustainable urban mobility. By visualizing ride origins and destinations, the visualization offers a nuanced understanding of rider behavior and preferences. Furthermore, the ability to filter by member types, months, and bike types enhances the interactive nature of the visualization, allowing users to tailor their exploration based on specific criteria. 
 
-Conclusion:
-The station-wise ride count analysis provides insights into seasonal bike ride trends. Understanding these patterns enables bike-sharing services to optimize operations and tailor services to meet the evolving needs of riders.
+## Conclusion: 
+In summary, the visualization underscores the nuanced dynamics of bike ride preferences, emphasizing the pivotal role of classic bikes in the bike-sharing ecosystem. The growing interest in electric bikes signals a potential shift in rider preferences, while the relatively lower demand for docked bikes suggests room for optimization. Understanding these trends equips bike-sharing services with valuable insights to refine their offerings, optimize resources, and enhance the overall user experience. 
 
-Analysis: Daily Ride Analysis: Peaks and Valleys in April, July, October, and December 2023
+## Seasonal Ride Trends Analysis: 
+Further exploration into seasonal ride trends across April, July, October, and December 2023 unveils intriguing patterns and variations. Grove St Path emerges as a consistent top station across all months, reflecting its significance as a hub of bike activity. However, other stations exhibit varying levels of ride activity, influenced by seasonal factors and rider preferences. The visualization, with its intensity of color reflecting ride count, provides a nuanced understanding of how ride patterns fluctuate throughout the year. 
 
-Introduction:
-The visualization provides a detailed analysis of daily ride counts for April, July, October, and December 2023, offering insights into the peaks and valleys of bike ride activity throughout these months. Each month's data is represented by a distinct line chart, with the highest and lowest ride counts highlighted to reveal notable trends and patterns.
+## Analysis by Month: 
+* April: Grove St Path emerges as the top station with significant bike traffic, while other stations exhibit varying levels of ride activity. 
+* July: Grove St Path maintains prominence as the top station, with vibrant green hues indicating high activity levels. 
+* October: Grove St Path remains popular, with continued activity denoted by dark brownish-red tints, signifying autumn season trends. 
+* December: Hoboken Terminal - River takes the lead, reflecting seasonal changes in rider preferences. Conclusion: Station-wise ride count analysis unveils seasonal bike ride trends, empowering bike-sharing services to optimize operations and tailor services to meet the dynamic needs of riders. 
 
-Analysis by Month:
-April: Fluctuations in daily ride counts indicate varying levels of bike activity. Peak activity occurs on April 14th, while the lowest count is recorded on April 29th.
-July: Similar patterns observed with peak activity on July 26th and lowest count on July 16th.
-October: Fluctuations in ride counts with peak activity on October 28th and lowest count on October 14th.
-December: Peaks and valleys in ride counts, with the highest activity on December 15th and lowest on December 25th.
+## Daily Ride Analysis: 
+A granular examination of daily ride counts reveals peaks and valleys in bike ride activity across the specified months. Each month presents its unique set of peak and lowest activity days, offering insights into user behavior, external factors such as weather conditions, and underlying trends driving bike usage patterns. By dissecting daily ride counts, the analysis facilitates a deeper understanding of when and how riders engage with bike-sharing services. 
 
-Conclusion:
-The daily ride analysis provides insights into peak and off-peak hours of bike activity. Understanding these trends helps in optimizing resources and enhancing the efficiency of bike-sharing services.
+## Exploration of Peak and Off-Peak Hours: 
+Analysis of hourly ride trends further enriches the understanding of bike ride dynamics, highlighting peak and off-peak hours of activity. By identifying specific timeframes of heightened ride activity, bike-sharing services can optimize operations, deploy resources effectively, and tailor services to meet the evolving needs of riders. The visualization, with its detailed hourly breakdown, provides actionable insights for enhancing service delivery and promoting sustainable urban mobility. 
 
-Analysis: Unraveling Daily Ride Trends: Peak and Off-Peak Hours in April, July, October, and December 2023
+## Member vs. Casual Riders: 
+The visualization also delves into the percentage of riders categorized as Members and Casuals, revealing higher usage among Members compared to Casuals. This disparity underscores the importance of catering to the needs and preferences of both user groups to ensure inclusive and accessible bike-sharing services. 
 
-Introduction:
-The visualization offers a comprehensive analysis of daily ride trends for April, July, October, and December 2023, providing insights into peak and off-peak hours of bike ride activity. Each month's data is further granulated into hourly line charts, allowing users to visualize and compare ride counts throughout the day.
+## Top and Bottom Ten Start and End Stations: 
+In addition to the maps, the visualization features list of the top ten and bottom ten start and end stations based on ride count. These lists offer a more detailed breakdown of station popularity, allowing for a deeper understanding of rider behavior and station usage patterns. By identifying both the most popular and least popular stations, bike-sharing services can better allocate resources and tailor their offerings to meet the needs of riders across different areas of the city. 
 
-Analysis by Month:
-April: Fluctuations in ride counts throughout the day, with peak activity at 6 PM and lowest at 3 AM.
-July: Similar patterns observed with peak activity at 6 PM and lowest at 3 AM.
-October: Peaks and valleys in ride counts, with the highest activity at 5 PM and lowest at 3 AM.
-December: Fluctuations in ride counts, with peak activity at 5 PM and lowest at 3 AM.
-Conclusion:
-Understanding peak and off-peak hours of bike activity helps in optimizing operations and resources for bike-sharing services, ultimately enhancing user experience and promoting sustainable urban mobility.
+## Project Analysis and Trends: 
+The bike ride trend analysis project provides a comprehensive exploration of rider behavior, preferences, and patterns throughout the year 2023. By delving into various aspects such as bike type, station popularity, and seasonal variations, the project aims to uncover valuable insights that can inform decision-making and optimization strategies for bike-sharing services. 
 
-Analysis: Story Riders-Pattern-and-Trends
-
-Introduction:
-In Metropolis, riders are divided into two categories: Members and Casuals. The visualization depicts a stark contrast in ride counts between member and casual riders, with member riders taking significantly more rides than casual riders.
-
-Key Findings:
-Members vs. Casuals: Member riders account for approximately 73% of total rides, indicating their dominant presence in the bike-sharing landscape.
-Ridership Distribution: Casual riders represent the remaining 27% of total rides, highlighting the substantial disparity in ridership between the two groups.
-
-Understanding the disparity in ride counts between member and casual riders is crucial for bike-sharing services to tailor their offerings and marketing strategies. By meeting the diverse needs of both member and casual riders, bike-sharing services can enhance user experience and promote sustainable urban mobility.
-
-Data Source: 4 csv files used for the month of April, July, October, December 2023
-Worksheets : 13 worksheets created for visualiztions
-Dashboard  : 5 Dashboards created
-Story      : 5 Stories created
-
-Chart types used : Bar, Line, map
-Assumption : All four months (April,  july, October, December) are peak months of each four seasons.
-
+## Conclusion:
+ Overall, the bike ride trend analysis project offers actionable insights for bike-sharing services to optimize resources, tailor offerings, and enhance the overall user experience. By understanding and adapting to changing rider preferences and behavior, bike-sharing services can foster sustainable urban mobility and contribute to the development of smart, accessible transportation solutions for cities. Additionally, the visualization of the most popular start and end stations based on ride count further enriches the analysis, providing a visual representation of key hubs of bike activity within the city. By visualizing ride origins and destinations, the analysis offers valuable insights into the distribution of bike rides across different stations. 
